@@ -11,6 +11,7 @@ Simple Full Stack Chat Application made by AdmiJW using
 * NodeJS + ExpressJS
 * SocketIO
 * ReactJS
+* TailwindCSS
 
 Other modules include:
 
