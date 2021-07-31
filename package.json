@@ -1,0 +1,24 @@
+{
+  "name": "simple-chat-application",
+  "version": "1.0.0",
+  "description": "Simple Chat Application made using express and websocket technology, powered by NodeJS, styled with TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon index.js",
+    "start": "node index.js",
+    "start-react": "cd react-frontend && npm start"
+  },
+  "author": "AdmiJW",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "rate-limiter-flexible": "^2.2.4",
+    "socket.io": "^4.1.3"
+  }
+}
